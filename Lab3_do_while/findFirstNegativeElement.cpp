@@ -2,15 +2,17 @@
 
 int findFirstNegativeElement(double eps) // Задание 5
 {
-	int sch = 0;
+	int num = 0;
 
 	do
 	{
-		if (a(sch) < 0 && fabs(a(sch)) <= eps) {
-			return sch;
+
+		if (a(num) < 0 && fabs(a(num)) <= eps) {
+			return num;
 		}
-		++sch;
+
+		++num;
 	} while (true);
 
-	return sch;
+	return num;
 }

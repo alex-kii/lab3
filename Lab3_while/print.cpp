@@ -2,18 +2,18 @@
 
 void print(int n, int k) // Задание 3
 {
-	int sch1 = 0, sch2 = 0;
+	int sch = 0;
 
-	while (sch1 < n)
-	{
-		++sch2;
-		if (sch2 % k == 0) {
-			++sch1;
+	while (sch < n) {
+
+		if ((sch + 1) % k == 0) {
+			sch++;
 			continue;
 		}
 		else {
-			std::cout << a(sch1) << " ";
-			++sch1;
+			std::cout << a(sch) << " ";
+			sch++;
 		}
+
 	}
 }

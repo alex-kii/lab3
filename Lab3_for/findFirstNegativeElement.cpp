@@ -4,12 +4,13 @@ int findFirstNegativeElement(double eps) // Задание 5
 {
 	int num = 0;
 
-	for (int i = 0; true; i++)
+	for (num; true; num++)
 	{
-		if (a(i) < 0 && fabs(a(i)) <= eps) {
-			num = i;
+
+		if (a(num) < 0 && fabs(a(num)) <= eps) {
 			return num;
 		}
+
 	}
 
 	return num;

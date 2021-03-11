@@ -3,12 +3,12 @@
 double summ(int n) // Задание 1
 {
 	double s = 0;
-	int sch = 0;
+	int i = 0;
 
-	while (sch < n)
+	while (i < n)
 	{
-		s += a(sch);
-		++sch;
+		s += a(i);
+		++i;
 	}
 
 	return s;

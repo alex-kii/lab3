@@ -3,12 +3,12 @@
 double summ2(double eps) // Задание 2
 {
 	double s = 0;
-	int sch = 0;
+	int i = 0;
 
-	while (fabs(a(sch)) > eps)
+	while (fabs(a(i)) > eps)
 	{
-		s += a(sch);
-		++sch;
+		s += a(i);
+		++i;
 	}
 
 	return s;

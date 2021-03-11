@@ -2,15 +2,15 @@
 
 int findFirstElement(double eps) // Задание 4
 {
-	int num = 0, sch = 0;
+	int num = 0;
 
 	do
 	{
-		if (fabs(a(sch)) <= eps) {
-			num = sch;
+
+		if (fabs(a(num)) <= eps)
 			break;
-		}
-		++sch;
+
+		++num;
 	} while (true);
 
 	return num;
